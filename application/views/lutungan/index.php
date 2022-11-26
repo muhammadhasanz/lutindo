@@ -52,6 +52,9 @@
             <a class="nav-link js-scroll" href="#work">Dokumentasi</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll" href="#aplikasi">Aplikasi</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll" href="#contact">Kontak</a>
           </li>
         </ul>
@@ -158,35 +161,31 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <a target="_blank" href="https://service.lutindo.ga/rooftop">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="ion-ios-home"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Rooftop</h2>
-                <p class="s-description text-center">
-                  Rooftop Towers adalah Pemasangan menara yang terletak di atap bangunan dan biasanya digunakan di <br>
-                  daerah perkotaan.
-                </p>
-              </div>
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-ios-home"></i></span>
             </div>
-          </a>
+            <div class="service-content">
+              <h2 class="s-title">Rooftop</h2>
+              <p class="s-description text-center">
+                Rooftop Towers adalah Pemasangan menara yang terletak di atap bangunan dan biasanya digunakan di <br>
+                daerah perkotaan.
+              </p>
+            </div>
+          </div>
         </div>
         <div class="col-md-6">
-          <a target="_blank" href="https://service.lutindo.ga/greenfield">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="ion-android-wifi"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Greenfield</h2>
-                <p class="s-description text-center">
-                  Greenfield Towers adalah Pemasangan menara tunggal yang memerlukan lebih banyak ruang dan biasanya terletak di daerah pedesaan.
-                </p>
-              </div>
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-android-wifi"></i></span>
             </div>
-          </a>
+            <div class="service-content">
+              <h2 class="s-title">Greenfield</h2>
+              <p class="s-description text-center">
+                Greenfield Towers adalah Pemasangan menara tunggal yang memerlukan lebih banyak ruang dan biasanya terletak di daerah pedesaan.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -462,6 +461,62 @@
       </div>
     </div>
   </div>
+
+
+  <!--/ Section Services Star /-->
+  <section id="aplikasi" class="services-mf route pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Aplikasi
+            </h3>
+            <p class="subtitle-a">
+              Aplikasi PT. Lutungan Indoutama
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <a target="_blank" href="https://app.lutindo.com/">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle">
+                  <img src="<?= base_url() ?>assets/img/app.png" width="100%">
+                </span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Lutindo App</h2>
+                <p class="s-description text-center">
+                  Aplikasi yang digunakan oleh pegawai PT. Lutungan Indoutama untuk mendokumentasi dan mempermudah pendataan perkembangan pembangunan site
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a target="_blank" href="https://check.lutindo.com/">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle">
+                  <img src="<?= base_url() ?>assets/img/tower.png" width="100%">
+                </span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Check Site</h2>
+                <p class="s-description text-center">
+                  Aplikasi yang dapat diakses oleh vendor yang bekerja sama dengan PT. Lutungan Indoutama serta berfungsi menampilkan progres perkembangan pembangunan site
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!--/ Section Contact-Footer Star /-->
   <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(<?= base_url('assets/img/overlay-bg.jpg'); ?>)">
